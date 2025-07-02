@@ -89,6 +89,7 @@ body, html {
   color: #675193;
   text-shadow: 0 0 10px #a974ff;
   font-weight: bold;
+  z-index: 2;
 }
 
 #customc {
