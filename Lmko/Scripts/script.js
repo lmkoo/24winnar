@@ -40,7 +40,7 @@ const home = `
   </div>
 `;
 
-const about = `Hey I'm ${uname}, a programmer that codes C#, Python, JavaScript. I'm currently learning SQLite, and C++. I make mods, cheats, and projects for whatever. Thanks for visiting my website and reading my about me!`;
+const about = `I'm a programmer that codes C#, Python, JavaScript. I'm currently learning SQLite, and C++. I make mods, cheats, and projects for whatever. Thanks for visiting my ass website and reading my about me!`;
 
 const projects = `
   <div style="font-size:1.5rem;color:#d6b3ff;text-shadow:0 0 10px #a974ff;">
