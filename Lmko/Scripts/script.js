@@ -3,7 +3,7 @@ const music = document.getElementById('bg-music');
 const main = document.getElementById('main');
 const prfbox = document.getElementById('prfbox');
 
-const pic = 'Assets/profile.jpg';
+const pic = 'Assets/profile.png';
 const uname = 'Lmko?';
 
 const homebtn = document.getElementById('btn-home');
