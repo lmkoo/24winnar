@@ -25,20 +25,5 @@ textanimation.addEventListener('mouseleave', () => {
   textanimation.style.transform = 'perspective(600px) rotateX(0deg) rotateY(0deg)';
 });
 
-window.addEventListener('DOMContentLoaded', () => {
-  const customicon = document.getElementById('customc');
-
-  window.addEventListener('mousemove', e => {
-    customicon.style.display = 'block';
-    customicon.style.left = `${e.clientX}px`;
-    customicon.style.top = `${e.clientY}px`;
-  });
-
-  document.addEventListener('mouseout', e => {
-    if (!e.relatedTarget) {
-      customicon.style.display = 'none';
-    }
-  });
-});
 
 
