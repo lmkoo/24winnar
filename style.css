@@ -69,6 +69,19 @@ body, html {
   margin-top: 10px;
 }
 
+#subtitle a {
+  color: #caaaff;
+  text-decoration: none;
+  text-shadow: 0 0 10px #a974ff;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+#subtitle a:hover {
+  color: #d6b3ff;
+  text-shadow: 0 0 15px #d6b3ff;
+}
+
+
 @keyframes floatin {
   0% {
     transform: translateY(40px);
@@ -114,3 +127,4 @@ body, html {
   z-index: 9999;
   display: none; 
 }
+
