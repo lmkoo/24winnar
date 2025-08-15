@@ -81,7 +81,6 @@ body, html {
   text-shadow: 0 0 15px #d6b3ff;
 }
 
-
 @keyframes floatin {
   0% {
     transform: translateY(40px);
@@ -127,4 +126,5 @@ body, html {
   z-index: 9999;
   display: none; 
 }
+
 
