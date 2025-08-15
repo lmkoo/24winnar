@@ -71,15 +71,17 @@ body, html {
 
 #subtitle a {
   color: #caaaff;
+  font-weight: bold;
   text-decoration: none;
-  text-shadow: 0 0 10px #a974ff;
+  text-shadow: 0 0 15px #a974ff, 0 0 30px #a974ff;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 #subtitle a:hover {
   color: #d6b3ff;
-  text-shadow: 0 0 15px #d6b3ff;
+  text-shadow: 0 0 20px #d6b3ff, 0 0 40px #d6b3ff;
 }
+
 
 @keyframes floatin {
   0% {
@@ -126,5 +128,6 @@ body, html {
   z-index: 9999;
   display: none; 
 }
+
 
 
