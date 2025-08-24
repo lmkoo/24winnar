@@ -1,0 +1,74 @@
+<!--
+ /$$               /$$                 /$$$$ 
+| $$              | $$                /$$  $$
+| $$ /$$$$$$/$$$$ | $$   /$$  /$$$$$$|__/\ $$
+| $$| $$_  $$_  $$| $$  /$$/ /$$__  $$   /$$/
+| $$| $$ \ $$ \ $$| $$$$$$/ | $$  \ $$  /$$/ 
+| $$| $$ | $$ | $$| $$_  $$ | $$  | $$ |__/  
+| $$| $$ | $$ | $$| $$ \  $$|  $$$$$$/  /$$  
+|__/|__/ |__/ |__/|__/  \__/ \______/  |__/                                      
+                               KawaiiClique 
+-->
+<head>
+  <meta property="og:title" content="KawaiiClique" />
+  <meta property="og:description" content="KawaiiClique | @Lmko?/Satire" />
+  <meta property="og:image" content="Assets/profile.jpg" />
+  <link rel="icon" href="Assets/profile.jpg" type="image/jpg" />
+  <title>@lmko? | Satire</title>
+  <link rel="stylesheet" href="Scripts/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <video autoplay muted loop id="vbg">
+    <source src="Assets/background.mp4" type="video/mp4" />
+  </video>
+    <main id="main">
+    </main>
+  </div>
+
+  <audio id="bg-music" src="Assets/music.mp3" autoplay loop></audio>
+<script>
+  const accs = `This account is satire plz no be mean. I'm not a meowist, rcta, or a lolicon `;
+
+  function type(text, el, speed = 50, callback) {
+    el.innerHTML = '';
+    let i = 0;
+    function next() {
+      if (i < text.length) {
+        el.innerHTML += text.charAt(i++);
+        setTimeout(next, speed);
+      } else if (callback) {
+        callback();
+      }
+    }
+    next();
+  }
+  main.innerHTML = `<div id="abtbox"></div>`;
+  const abtbox = document.getElementById('abtbox');
+
+  type(accs, abtbox, 40, () => {
+    const countdownMsg = document.createElement('div');
+    countdownMsg.style.marginTop = '10px';
+    countdownMsg.style.color = 'white';
+    countdownMsg.style.fontSize = '16px';
+    abtbox.appendChild(countdownMsg);
+
+    let seconds = 5;
+    countdownMsg.textContent = `Redirecting to main page in ${seconds} seconds`;
+    const countdownInterval = setInterval(() => {
+      seconds--;
+      if (seconds > 0) {
+        countdownMsg.textContent = `Redirecting to main page in ${seconds} seconds`;
+      } else {
+        clearInterval(countdownInterval);
+        countdownMsg.textContent = `Redirecting now...`;
+        window.location.href = "https://kawaiiclique.vercel.app/Lmko/";
+      }
+    }, 1000);
+  });
+</script>
+
+</body>
+</html>
+
+
