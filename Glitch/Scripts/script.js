@@ -5,7 +5,7 @@ const prfbox = document.getElementById('prfbox');
 
 const pic = 'Assets/profile.jpg';
 const uname = 'Glitch';
-k
+
 const homebtn = document.getElementById('btn-home');
 const aboutbtn = document.getElementById('btn-about');
 const projbtn = document.getElementById('btn-projects');
@@ -91,3 +91,4 @@ function tilt() {
     tiltIn.style.transform = 'rotateX(0deg) rotateY(0deg)';
   });
 }
+
